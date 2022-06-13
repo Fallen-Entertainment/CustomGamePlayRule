@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37141279af466342a2c954cb6b983d5, type: 3}
+  m_Name: EC Gameplay Rule
+  m_EditorClassIdentifier: 
+  increaseStatPointEachLevel: 5
+  increaseSkillPointEachLevel: 1
+  increaseStatPointsUntilReachedLevel: 0
+  increaseSkillPointsUntilReachedLevel: 0
+  expLostPercentageWhenDeath: 2
+  staminaRecoveryPerSeconds: 5
+  staminaDecreasePerSeconds: 5
+  moveSpeedRateWhileSprinting: 1.5
+  moveSpeedRateWhileWalking: 0.5
+  moveSpeedRateWhileCrouching: 0.35
+  moveSpeedRateWhileCrawling: 0.15
+  moveSpeedRateWhileSwimming: 0.5
+  hungryWhenFoodLowerThan: 40
+  thirstyWhenWaterLowerThan: 40
+  foodDecreasePerSeconds: 0
+  waterDecreasePerSeconds: 0
+  hpRecoveryRatePerSeconds: 0.05
+  mpRecoveryRatePerSeconds: 0.05
+  hpDecreaseRatePerSecondsWhenHungry: 0.05
+  mpDecreaseRatePerSecondsWhenHungry: 0.05
+  hpDecreaseRatePerSecondsWhenThirsty: 0.05
+  mpDecreaseRatePerSecondsWhenThirsty: 0.05
+  normalDecreaseWeaponDurability: 0.5
+  normalDecreaseShieldDurability: 0.5
+  normalDecreaseArmorDurability: 0.1
+  blockedDecreaseWeaponDurability: 0.5
+  blockedDecreaseShieldDurability: 0.75
+  blockedDecreaseArmorDurability: 0.15
+  criticalDecreaseWeaponDurability: 0.75
+  criticalDecreaseShieldDurability: 0.5
+  criticalDecreaseArmorDurability: 0.15
+  missDecreaseWeaponDurability: 0
+  missDecreaseShieldDurability: 0
+  missDecreaseArmorDurability: 0
+  alwaysHitWhenCriticalOccurs: 1
+  fallDamageMinDistance: 5
+  fallDamageMaxDistance: 20
+  recoverHpWhenLevelUp: 0
+  recoverMpWhenLevelUp: 0
+  recoverFoodWhenLevelUp: 0
+  recoverWaterWhenLevelUp: 0
+  recoverStaminaWhenLevelUp: 0
